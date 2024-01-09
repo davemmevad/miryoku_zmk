@@ -1,6 +1,10 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 // davem first edits 03APR23 swap thumb keys to save left thumb
+// davem 08JAN24 add config setting for bluetooth
+
+// bluetooth .. increase power
+CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
